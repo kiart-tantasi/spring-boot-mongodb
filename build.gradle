@@ -16,11 +16,13 @@ repositories {
 }
 
 dependencies {
-	// implementation 'org.mongodb:mongodb-driver-sync:4.11.0' // <-- does not work
-	// https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
-	implementation 'org.mongodb:mongo-java-driver:3.12.14'
-
+	// https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core
+	implementation 'org.mongodb:mongodb-driver-core:4.11.0'
+	// https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync
+	implementation 'org.mongodb:mongodb-driver-sync:4.11.0'
+	// spring boot
 	implementation 'org.springframework.boot:spring-boot-starter'
+	// spring boot test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
