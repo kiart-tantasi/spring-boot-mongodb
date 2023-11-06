@@ -7,6 +7,6 @@ docker-compose up
 
 2. Run app
 ```
-./gradlew bootRUn
+./gradlew bootRun
 ```
 or use your IDE which is faster
