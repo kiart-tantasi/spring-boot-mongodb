@@ -53,5 +53,4 @@ public class SpringMongoApplication {
 			}
 		};
 	}
-	// TODO: try new sync java driver
 }
